@@ -12,6 +12,7 @@
         <module name="excel" />
         <module name="mq_consumer" />
         <module name="provider" />
+        <module name="search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,12 @@
       <module name="excel" target="1.8" />
       <module name="mq_consumer" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="search" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="search" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/eureka_mq/pom.xml" />
         <option value="$PROJECT_DIR$/mq_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/excel/pom.xml" />
+        <option value="$PROJECT_DIR$/search/pom.xml" />
       </list>
     </option>
   </component>
