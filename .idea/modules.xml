@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_mq/eureka_mq.iml" filepath="$PROJECT_DIR$/eureka_mq/eureka_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excel/excel.iml" filepath="$PROJECT_DIR$/excel/excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_consumer/mq_consumer.iml" filepath="$PROJECT_DIR$/mq_consumer/mq_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+    </modules>
+  </component>
+</project>
