@@ -1,5 +1,6 @@
 package com.qyy.consumer.controller;
 
+import com.qyy.consumer.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,11 +10,19 @@ import org.springframework.web.client.RestTemplate;
 public class UserController {
     @Autowired
     private RestTemplate restTemplate;
+
+    @Autowired
+    private UserService userService;
+
     @GetMapping("/do.action")
     public String send(){
 
-        String object = restTemplate.getForObject("http://PROVIDER/msg", String.class);
-        return  object;
+        /*String object = restTemplate.getForObject("http://PROVIDER/msg", String.class);
+        return  object;*/
+
+        String user = userService.noticeUser();
+
+        return  user;
     }
 
 
