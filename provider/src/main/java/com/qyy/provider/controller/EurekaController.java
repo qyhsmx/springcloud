@@ -16,4 +16,15 @@ public class EurekaController {
     public String getMsg(){
         return eurekaService.msg();
     }
+
+
+    @GetMapping("/hystrix")
+    public String getHystrix(){
+        return "hello hystrix";
+    }
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "我是服务提供者1";
+    }
 }

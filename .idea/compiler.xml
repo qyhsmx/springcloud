@@ -6,28 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="catdemo" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="consumer" />
         <module name="eureka_mq" />
         <module name="eureka_server" />
         <module name="excel" />
         <module name="mq_consumer" />
         <module name="provider" />
+        <module name="provider2" />
         <module name="search" />
+        <module name="service-zull" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="catdemo" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="eureka_mq" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="excel" target="1.8" />
       <module name="mq_consumer" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="provider2" target="1.8" />
       <module name="search" target="1.8" />
+      <module name="service-zull" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="catdemo" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="search" options="-parameters" />
+      <module name="service-zull" options="-parameters" />
     </option>
   </component>
 </project>

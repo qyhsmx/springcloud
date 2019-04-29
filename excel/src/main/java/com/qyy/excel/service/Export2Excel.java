@@ -26,8 +26,12 @@ public class Export2Excel {
 
         HSSFCellStyle cellStyle = workbook.createCellStyle();
 
+        cellStyle.setRightBorderColor(new Short("333"));
+
         //表头
         HSSFRow firstRow = sheet.createRow(0);
+
+//        sheet.setDefaultColumnStyle();
 
 
 
@@ -69,11 +73,6 @@ public class Export2Excel {
                 }
             }
         }
-
-
-
-
-
 
 
 

@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/mq_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/excel/pom.xml" />
         <option value="$PROJECT_DIR$/search/pom.xml" />
+        <option value="$PROJECT_DIR$/catdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zull/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
   </component>
@@ -295,7 +300,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
